@@ -41,13 +41,13 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <div className="mx-auto  max-w-2xl px-6">
-        <body>
+      <body>
+        <div className="mx-auto  max-w-2xl px-6">
           {header}
           {children}
           {footer}
-        </body>
-      </div>
+        </div>
+      </body>
     </html>
   );
 }
